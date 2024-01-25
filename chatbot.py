@@ -3,7 +3,7 @@ from src.pdfloader import load_pdf
 from src.prompt import pdfreaderprompt
 from langchain.chains import RetrievalQA
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "sk-"
 
 
 def CreateChatbot():
